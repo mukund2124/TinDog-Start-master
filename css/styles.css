@@ -1,0 +1,158 @@
+body {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/**********************classes and ids*******************/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  height: 800px;
+}
+
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+.navbar-nav>li a {
+  margin-left: 2rem;
+  color: white !important;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  margin-bottom: 5rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+
+/* navigation bar */
+.navbar-brand {
+  color: white;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/******************** Features ********************/
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.check {
+  padding: 12px;
+  color: #ef8172;
+}
+
+.check:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+  width: 50%;
+  margin-left: 26%;
+  text-align: center;
+}
+
+
+.title-image {
+  transform: rotate(24deg);
+  width: 60%;
+  position: absolute;
+}
+
+#features {
+  background-color: #fff;
+  padding: 8% 10% 6rem 10%;
+  position: relative;
+}
+
+.block {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* testimonials section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carochangebtn {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 60px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    height: 1140px;
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to Action */
+.cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 60px 0 100px;
+  height: 400px;
+}
+.lastdownbtn {
+  margin: 40px 10px;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  word-spacing: 1rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 100px 20%;
+}
